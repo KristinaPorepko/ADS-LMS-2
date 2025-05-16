@@ -378,7 +378,7 @@ public class MyArrayDeque<E> implements Collection<E> {
 
     public static void main(String[] args) {
 
-        // Создаем дек
+
         MyArrayDeque<String> deque = new MyArrayDeque<>();
         System.out.println("Создан новый дек: " + deque);
         System.out.println("Размер пустого дека: " + deque.size());

@@ -337,7 +337,7 @@ public class MyLinkedList<E> implements Deque<E> {
             System.out.println("Поймано исключение: " + e.getMessage());
         }
 
-        // Очистка очереди
+        // Очистка
         System.out.println("\nОчищаем очередь:");
         deque.clear();
         System.out.println("Содержимое: " + deque);
