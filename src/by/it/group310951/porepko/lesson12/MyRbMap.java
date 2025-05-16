@@ -32,6 +32,7 @@ public class MyRbMap implements SortedMap<Integer, String> {
     /**
      * Конструктор по умолчанию, инициализирует пустое дерево.
      */
+
     public MyRbMap() {
         this.root = null;
         this.size = 0;
